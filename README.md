@@ -28,9 +28,31 @@ Signature verification model based on the Siamese network architecture using the
 ### Model3_Resnet50
 Signature verification model based on the ResNet-50 architecture.
 
+### Model4_Resnet50Siamese
+Signature verification model based on the Siamese network architecture using the ResNet-50 model.
+
+### Model5_Resnet18Siamese
+Signature verification model based on the Siamese network architecture using the ResNet-18 model.
+
+### Model6_EfficientNetB0Siamese
+Signature verification model based on the Siamese network architecture using the EfficientNet-B0 model.
+
+These models are trained to perform signature verification tasks, which involve determining the authenticity of a given signature. The models are capable of differentiating between real and forged images of signatures, providing a mechanism to detect fraudulent or unauthorized signatures.
+
+## Usage
+
+To use these pre-trained models, follow the instructions below:
+
+1. Clone the repository:
+
+```git clone https://github.com/ankitT20/SignatureAuth/```
+
+2. Install the necessary dependencies (if any) specified in the import of each file.
+
+> Use Google Colab , GPU & high memory needed  
 
 <!-- 
-c:; cd 'C:\Users\ANKIT\Documents\VScode\SignatureAuth'; git add .; git commit -a -m "additional commit"; git push -u origin main
+c:; cd 'C:\Users\ANKIT\Documents\VScode\SignatureAuth'; git add .; git commit -a -m "additional commit"; git push -u origin main;
 git init
 git branch -M main
 git remote add origin https://github.com/ankitT20/SignatureAuth.git

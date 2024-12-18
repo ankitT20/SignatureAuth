@@ -67,6 +67,41 @@ View notebook on Google Colab
 ```
 https://drive.google.com/drive/folders/1Uq7o-5rhrb3gN38-dSTJQO4IoB_yoiJL
 ```
+### Siamese Neural Network
+A Siamese Neural Network (Siamese NN) is a type of neural network architecture designed to compare two inputs by learning their similarity. It consists of two identical sub-networks (sharing the same weights and architecture), each processing one of the two inputs. The outputs from both networks are then combined (usually by computing a distance or similarity metric) to determine whether the two inputs are related or not.
+
+How it works:
+
+1. Input Pairs: Two inputs (e.g., two images, texts, or signals) are fed into the two identical branches of the network.
+
+
+2. Feature Extraction: Each branch extracts features independently using the same set of weights.
+
+
+3. Comparison: The extracted features from both branches are compared using a distance function (e.g., Euclidean distance, cosine similarity).
+
+
+4. Output: The output is typically a similarity score or classification indicating whether the inputs are similar or different.
+
+
+
+> Siamese NNs are particularly useful for tasks like signature verification, face recognition, and anomaly detection, where the goal is to determine the similarity between two data points.
+
+
+
+Example Applications:
+
+Signature Verification: Comparing a handwritten signature to a stored one to verify authenticity.
+
+Face Verification: Matching two face images to determine if they belong to the same person.
+
+One-shot Learning: Learning to recognize new classes with very few examples, as Siamese NNs focus on relationships rather than absolute classifications.
+
+
+> Key Advantage: Siamese networks generalize well even with limited labeled data, as they compare inputs rather than classifying individual samples.
+
+
+
 <!-- 
 c:; cd 'C:\Users\ANKIT\Documents\VScode\SignatureAuth'; git add .; git commit -a -m "additional commit"; git push -u origin main;
 git init

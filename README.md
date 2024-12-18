@@ -51,6 +51,10 @@ To use these pre-trained models, follow the instructions below:
 
 > Use Google Colab , GPU & high memory needed  
 
+View notebook on Google Colab
+```
+https://drive.google.com/drive/folders/1Uq7o-5rhrb3gN38-dSTJQO4IoB_yoiJL
+```
 <!-- 
 c:; cd 'C:\Users\ANKIT\Documents\VScode\SignatureAuth'; git add .; git commit -a -m "additional commit"; git push -u origin main;
 git init

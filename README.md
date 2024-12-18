@@ -87,7 +87,7 @@ How it works:
 
 > Siamese NNs are particularly useful for tasks like signature verification, face recognition, and anomaly detection, where the goal is to determine the similarity between two data points.
 
-
+![Siamese Neural Network](Siamese.webp)
 
 Example Applications:
 
